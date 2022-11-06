@@ -1,0 +1,20 @@
+a {
+    color: rgb(189, 1, 1);
+    transition: 0.8s;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+a:hover {
+    color:blueviolet
+}
+
+.active {
+    background-color: blue;
+    color: black;
+}
+
+body {
+    background-color:darkcyan
+}
