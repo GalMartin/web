@@ -1,20 +1,64 @@
 a {
-    color: rgb(189, 1, 1);
-    transition: 0.8s;
-    font-size: large;
-    font-family: 'Times New Roman', Times, serif;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0c0e31;
 }
 
+a {
+    float: left;
+}
 
-a:hover {
-    color:blueviolet
+a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+a:hover:not(.active) {
+    background-color: #251c52;
 }
 
 .active {
-    background-color: blue;
+    background-color: #ffffff;
     color: black;
 }
 
+
 body {
-    background-color:darkcyan
+    background-color:rgb(22, 18, 82)
+}
+
+body {
+    color: #ffd300;
+}
+
+body.csiga-sex {
+    background-size: 1920px 1080px;
+    background-repeat: no-repeat;
+    background-image: url(img/csiga-sex.jpg);
+}
+
+body.start {
+    background-image: url(img/venamded.jpg);
+    background-repeat: no-repeat;
+    background-size: 1920px 1080px;
+}
+body.susu {
+    background-image: url(img/suli.jpg);
+    background-repeat: no-repeat;
+    background-size: 1920px 1080px;
+}
+
+table {
+    background-color: #5c5858;
+    color: cyan;
+}
+body.kaja {
+    background-image: url(img/pizza.jpg);
+    background-repeat: no-repeat;
+    background-size: 1920px 1080px;
 }
