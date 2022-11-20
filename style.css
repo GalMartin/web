@@ -1,4 +1,4 @@
-a {
+ul.huncutkodas {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -6,7 +6,7 @@ a {
     background-color: #0c0e31;
 }
 
-a {
+li.huncutkodas {
     float: left;
 }
 
@@ -18,7 +18,7 @@ a {
     text-decoration: none;
 }
 
-a:hover:not(.active) {
+.a:hover:not(.active) {
     background-color: #251c52;
 }
 
@@ -62,3 +62,37 @@ body.kaja {
     background-repeat: no-repeat;
     background-size: 1920px 1080px;
 }
+
+.content{
+    top: 40px;
+  
+}
+
+div {
+    float: left;
+  }
+
+
+  img.evszak {
+    border: 7px solid rgb(0, 0, 0);
+    border-radius: 5%;
+    width: 250px;
+    margin: 20px;
+    transition: 1s;
+  }
+
+  img.evszak:hover {
+    transform: scale(1.08);
+  }
+
+  img.evszak:hover + p {
+    font-size: xx-large
+  }
+
+  p.evszak {
+    font-size: large;
+    font-family: 'Times New Roman,' Times, serif;
+    text-align: center;
+    transition: 1s;
+     }
+     
